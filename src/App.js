@@ -1,15 +1,18 @@
 /*===========================================
             App.js
 ===========================================*/
-import React from 'react';
+import React, { Component } from 'react'
 
-const App = () => {
-  return (
-    <>
-      <h1>react-vidly-app</h1>
-    </>
-  )
+class App extends Component {
+  render() {
+    return (
+      <main className="container">
+        <h1>react-vidly-app</h1>
+      </main>
+    )
+  }
 }
 
 export default App;
+
 
